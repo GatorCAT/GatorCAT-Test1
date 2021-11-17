@@ -25,18 +25,19 @@ def compute_median(numbers: List[int]) -> float:
     # Reference:
     # https://stackoverflow.com/questions/17873384/how-to-deep-copy-a-list
     if numbers:
-        numbers.sort()
-        len_of_num = len(numbers)
+        copy_numbers = copy.deepcopy(numbers)
+        copy_numbers.sort()
+        len_of_num = len(copy_numbers)
         # sort the numbers in an "in place" fashion
         if len_of_num % 2 == 0:
             mid1 = int(len_of_num / 2)
             mid2 = mid1 - 1
-            med = compute_mean([numbers[mid1], numbers[mid2]])
+            med = compute_mean([copy_numbers[mid1], copy_numbers[mid2]])
             return med
         else:
             m = (len_of_num + 1) / 2
             m = int(m) - 1
-            med = numbers[m]
+            med = copy_numbers[m]
             return med
     else:
         return float("nan")
