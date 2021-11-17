@@ -42,8 +42,9 @@ def main(
     )
     # execute the collatz function for each of the numbers in the list
     for collatz_input in collatz_inputs:
-        # TODO: call the function named compute_collatz_chain and save its output
+        # call the function named compute_collatz_chain and save its output
         # materialize the list from the returned generator function
+        collatz_output_generator = collatz.compute_collatz_chain(collatz_input)
         collatz_output_list = list(collatz_output_generator)
         collatz_output_list_length.append(len(collatz_output_list))
     # display the details about the numbers that were input to the function
