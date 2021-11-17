@@ -69,8 +69,8 @@ def main(
         console.print(str(collatz_output_list_length))
         console.print()
     # compute the minimum and maximum length of the Collatz chain
-    minimum_chain_length = []
-    maximum_chain_length = []
+    minimum_chain_length = min(collatz_output_list)
+    maximum_chain_length = max(collatz_output_list)
     # compute the mean, median, and standard deviation of the length of the Collatz chain
     mean_chain_length = summarize.compute_mean(collatz_output_list)
     median_chain_length  = summarize.compute_median(collatz_output_list)
