@@ -115,33 +115,11 @@ This test case simulates what should be happening exactly for the given input, 3
 
 ### What was the greatest technical challenge that you faced and how did you overcome it?
 
-TODO: Provide a one paragraph response to this question
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.
+I did not feel that I encountered any challenges during the implementation of this lab.  I mainly found some issue with initially coming up with a solution to solving the problems asked of me during this lab, but during some thinking and planning I was able to reach the correct implementations for my functions in order to complete the goals and requirements set for this project.  The only other issues I had during this lab was using python packages that I have no previous experience with.  That package being the `copy` package that as used within the `summarize.py` module.  Allowing us quick and easy implementation of a deep copy of an array to fiddle and alter as we saw fit for analysis purposes.
 
 ### How did this assignment leverage Python source code from previous assignments?
 
-TODO: Provide a one paragraph response to this question
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.
+This assignment leveraged code that was previously used within the
 
 ### What is one topic in the scope of this course that you would like to learn more about? Why?
 
