@@ -119,28 +119,12 @@ I did not feel that I encountered any challenges during the implementation of th
 
 ### How did this assignment leverage Python source code from previous assignments?
 
-This assignment leveraged code that was previously used within the
+This assignment leveraged code that was previously used within the data analysis lab.  The code that was reused for the purposes of this lab was being used for essentially the same purpose.  In this way, that shows that the code that we had written for our previous lab can actually be helpful and useful outside of the scope of that singular assignment.  The code that was leveraged from the previous assignment was an excerpt that was practically the same as the file under the same name, `summarize.py`.  As the many methods that were used to compute standard deviation serve the same function in this project.
 
 ### What is one topic in the scope of this course that you would like to learn more about? Why?
 
-TODO: Provide a one paragraph response to this question
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.
+I feel that it would be very useful for me to learn more about the data stream discrete structure system.  As before this class I hadn't even know they had existed.  Despite using so many in many of the websites and other services that I use on a daily basis.  More knowledge about this structure, and many others and how to use them would help make me a better master of my craft, whatever that may be after I graduate from Allegheny College.
 
 ## At your own option, do you have any other insights to share about this assignment?
 
-TODO: Provide a one paragraph response to this question
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.
+I do not feel that there is anything else that I am able to add to this assignment that would be of any academic use.

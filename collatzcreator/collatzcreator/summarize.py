@@ -4,7 +4,7 @@ from typing import List
 
 import copy
 
-
+# Compute mean for given list of integers
 def compute_mean(numbers: List[int]) -> float:
     # add a complete implementation of this function
     sum_of_num = sum(numbers)
@@ -14,7 +14,7 @@ def compute_mean(numbers: List[int]) -> float:
     else:
         return float("nan")
 
-
+# Compute median for given list of integers
 def compute_median(numbers: List[int]) -> float:
     # add a complete implementation of this function
     # sort the numbers in an "in place" fashion
@@ -43,7 +43,7 @@ def compute_median(numbers: List[int]) -> float:
     else:
         return float("nan")
 
-
+# Compute difference for given lsit of integers
 def compute_difference(numbers: List[int]) -> List[float]:
     # add a complete implementation of this function
     m = compute_mean(numbers)
@@ -54,7 +54,7 @@ def compute_difference(numbers: List[int]) -> List[float]:
     # return the computed differences from the mean
     return diff
 
-
+# Compute variance for given list of integers
 def compute_variance(numbers: List[int]) -> float:
     # add a complete implementation of this function
     # compute the difference from the mean
@@ -69,7 +69,7 @@ def compute_variance(numbers: List[int]) -> float:
     # return the calculated variance of the list of numbers
     return variance
 
-
+# Compute standard deviation for given list of integers
 def compute_standard_deviation(numbers: List[int]) -> float:
     # add a complete implementation of this function
     # call the function to calculate the variance
