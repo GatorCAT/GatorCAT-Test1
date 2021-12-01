@@ -4,6 +4,7 @@ from typing import List
 
 import copy
 
+
 # Compute mean for given list of integers
 def compute_mean(numbers: List[int]) -> float:
     # add a complete implementation of this function
