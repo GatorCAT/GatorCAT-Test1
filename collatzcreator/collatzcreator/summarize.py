@@ -14,6 +14,7 @@ def compute_mean(numbers: List[int]) -> float:
     else:
         return float("nan")
 
+
 # Compute median for given list of integers
 def compute_median(numbers: List[int]) -> float:
     # add a complete implementation of this function
@@ -43,6 +44,7 @@ def compute_median(numbers: List[int]) -> float:
     else:
         return float("nan")
 
+
 # Compute difference for given lsit of integers
 def compute_difference(numbers: List[int]) -> List[float]:
     # add a complete implementation of this function
@@ -53,6 +55,7 @@ def compute_difference(numbers: List[int]) -> List[float]:
         diff.append(num - m)
     # return the computed differences from the mean
     return diff
+
 
 # Compute variance for given list of integers
 def compute_variance(numbers: List[int]) -> float:
@@ -68,6 +71,7 @@ def compute_variance(numbers: List[int]) -> float:
     variance = sum_sqaured_diff / len(numbers)
     # return the calculated variance of the list of numbers
     return variance
+
 
 # Compute standard deviation for given list of integers
 def compute_standard_deviation(numbers: List[int]) -> float:
