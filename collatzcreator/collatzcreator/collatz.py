@@ -4,6 +4,7 @@ from typing import Iterator
 
 
 def compute_collatz_chain(number: int) -> Iterator[int]:
+    """Perform collatz chain on given number."""
     # yield the original input number
     # continue to iterate until the number is equal to 1
     # NOTE: there is no proof that this function will stop running!
