@@ -14,6 +14,7 @@ def compute_mean(numbers: List[int]) -> float:
     else:
         return float("nan")
 
+
 def compute_median(numbers: List[int]) -> float:
     # add a complete implementation of this function
     # sort the numbers in an "in place" fashion
