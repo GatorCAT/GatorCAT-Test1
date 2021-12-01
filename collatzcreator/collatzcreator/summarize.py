@@ -5,8 +5,8 @@ from typing import List
 import copy
 
 
-# Compute mean for given list of integers
 def compute_mean(numbers: List[int]) -> float:
+    """Compute mean for given list of integers"""
     # add a complete implementation of this function
     sum_of_num = sum(numbers)
     len_of_num = len(numbers)
@@ -16,8 +16,8 @@ def compute_mean(numbers: List[int]) -> float:
         return float("nan")
 
 
-# Compute median for given list of integers
 def compute_median(numbers: List[int]) -> float:
+    """Compute median for given list of integers"""
     # add a complete implementation of this function
     # sort the numbers in an "in place" fashion
     # after creating a "deep copy" of the numbers
@@ -46,8 +46,8 @@ def compute_median(numbers: List[int]) -> float:
         return float("nan")
 
 
-# Compute difference for given lsit of integers
 def compute_difference(numbers: List[int]) -> List[float]:
+    """Compute difference for given lsit of integers"""
     # add a complete implementation of this function
     m = compute_mean(numbers)
     # compute the differences from the mean
@@ -58,8 +58,8 @@ def compute_difference(numbers: List[int]) -> List[float]:
     return diff
 
 
-# Compute variance for given list of integers
 def compute_variance(numbers: List[int]) -> float:
+    """Compute variance for given list of integers"""
     # add a complete implementation of this function
     # compute the difference from the mean
     diff = compute_difference(numbers)
@@ -74,8 +74,8 @@ def compute_variance(numbers: List[int]) -> float:
     return variance
 
 
-# Compute standard deviation for given list of integers
 def compute_standard_deviation(numbers: List[int]) -> float:
+    """Compute standard deviation for given list of integers"""
     # add a complete implementation of this function
     # call the function to calculate the variance
     variance = compute_variance(numbers)
