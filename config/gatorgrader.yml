@@ -2,6 +2,7 @@
 name: collatz-chains
 break: true
 indent: 4
+idcommand: echo $PWD
 ---
 
 # Learn more about GatorGrader and its supported checks by visiting this web site:
