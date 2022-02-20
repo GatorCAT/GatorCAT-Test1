@@ -135,6 +135,7 @@ jobs:
           run:  |
             cd Mongo_Upload
             poetry install
+            poetry version
             poetry run GatorCATUpload ../output.txt $Username $Password $Cluster_name $Collection_name
 
         - name: Display Output
