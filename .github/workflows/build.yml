@@ -138,7 +138,7 @@ jobs:
             pip install pymongo[srv]
             pip install regex
             python --version
-            python3 Upload_to_mongo.py ../output.txt $Username $Password $Cluster_name $Collection_name
+            python3 GatorCATUpload/Upload_to_mongo.py ../output.txt $Username $Password $Cluster_name $Collection_name
 
         - name: Display Output
           if: always()
